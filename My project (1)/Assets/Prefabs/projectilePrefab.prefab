@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2521028485790302032}
   - component: {fileID: 2521028485789499248}
   - component: {fileID: 2521028485788401072}
+  - component: {fileID: 3291841964664020876}
   m_Layer: 0
   m_Name: projectilePrefab
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3291841964664020876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521028485790327664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff627c8821a161479dc5ccd8a77f5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
